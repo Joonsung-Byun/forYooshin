@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: .7rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    padding: .8rem;
+    margin-right: 1rem;
+
+}
+
+ul li {
+    padding-left: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    width: 80%;
+    margin: 15px auto;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+main p {
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+footer {
+    padding: .5rem;
+    color: black;
+    background-color: #eee;
+    text-align: center;
+}
