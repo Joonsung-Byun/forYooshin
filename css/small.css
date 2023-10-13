@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    padding: .7rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    padding-bottom: 16px;
+}
+
+nav button {
+    border: none;
+    margin-left: 16px;
+    padding: .3rem .2rem;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+nav button span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+nav button span:nth-child(2) {
+    font-size: 2.4rem;
+}
+
+
+button span:nth-child(2) {display: none;}
+button.open span:nth-child(1) {display: none;}
+button.open span:nth-child(2) {display: block;}
+ul.open {display: block;}
+ul {display: none;}
+
+
+ ul li {
+    border-radius: 8px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+ul li:hover {
+    background-color: ;
+}
+ul li.active {
+    background-color: #E8F0FE;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: .9rem 16px;
+    font-size: 1rem;
+    display: block;
+}
+
+ul li.active a {
+    color: #3572D7;
+}
+
+
+
+h2 {
+    margin-left: 15px;
+}
+
+div {
+    width: 80%;
+    margin: 15px auto;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+main p {
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#comment-section {
+    border: 1px solid red;
+    margin-left: 16px;
+}
+
+footer {
+    padding: .5rem;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
